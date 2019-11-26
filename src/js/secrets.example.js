@@ -1,0 +1,1 @@
+const GIPHY_API_KEY = 'your giphy api key goes here'
