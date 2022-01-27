@@ -58,7 +58,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
+	content: "";
 	content: none;
 }
 
@@ -85,14 +85,12 @@ body {
 	margin: 140px auto;
 	padding: 30px 20px 30px 30px;
 }
-
 .floating-box .foreground {
 	position: relative;
 	z-index: 2;
 	-webkit-transform: translateZ(100px);
 	        transform: translateZ(100px);
 }
-
 .floating-box .background {
 	position: absolute;
 	width: 100%;
@@ -105,12 +103,10 @@ body {
 	-webkit-transform: translateX(20px) perspective(600px) rotateY(15deg);
 	        transform: translateX(20px) perspective(600px) rotateY(15deg);
 }
-
 .floating-box:hover .background {
 	-webkit-transform: translateX(-30px) perspective(600px) rotateY(-15deg);
 	        transform: translateX(-30px) perspective(600px) rotateY(-15deg);
 }
-
 .floating-box .logo {
 	position: absolute;
 	top: -30px;
@@ -120,37 +116,30 @@ body {
 	        transform: translateZ(100px);
 	transition: 0.3s;
 }
-
 .floating-box .logo:hover {
 	-webkit-transform: rotate(-0.4turn);
 	        transform: rotate(-0.4turn);
 }
-
 .floating-box h1 {
 	font-weight: 700;
 	font-size: 22pt;
 	margin: 15px 0;
 }
-
 .floating-box p {
 	color: #777;
 	line-height: 140%;
 }
-
 .floating-box p.github {
 	font-size: 0.8em;
 }
-
 .floating-box p.github a {
 	opacity: 0.2;
 	transition: 0.3s;
 }
-
 .floating-box p.github a:hover {
 	opacity: 1;
 	color: red;
 }
-
 .floating-box code {
 	position: absolute;
 	top: 20px;
@@ -158,5 +147,4 @@ body {
 	font-size: 0.8em;
 	opacity: 0.2;
 }
-
 /*# sourceMappingURL=main.css.map */

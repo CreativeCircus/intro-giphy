@@ -3,3 +3,4 @@ node_modules
 package-lock.json
 yarn.lock
 secrets.js
+dist/js/secrets.js.map
