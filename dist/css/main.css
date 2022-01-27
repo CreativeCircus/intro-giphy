@@ -58,7 +58,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
+	content: "";
 	content: none;
 }
 
@@ -115,5 +115,4 @@ body {
 	background-repeat: no-repeat;
 	background-size: 70vw auto;
 }
-
 /*# sourceMappingURL=main.css.map */
